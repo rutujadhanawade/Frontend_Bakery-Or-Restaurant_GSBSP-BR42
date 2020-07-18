@@ -49,7 +49,7 @@ header table {
     width:20%;
 }
 #navigation {
-    width:80%;
+    width:50%;
 }
 #magnify {
     width:100vw;
@@ -193,6 +193,7 @@ header table {
 }
 #photos img:hover {
     transform: scale(1.1);
+    background : #e0ebeb;
     cursor: pointer;
 }
 #bio {
@@ -313,6 +314,7 @@ button:focus {
     }
     #photos img:hover {
         transform: scale(1);
+        opacity: 0.3;
         cursor: pointer;
     }
     #rightImage {
