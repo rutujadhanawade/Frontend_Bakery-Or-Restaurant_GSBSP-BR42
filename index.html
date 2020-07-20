@@ -11,12 +11,10 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- <div id="loading">
-        <div id="spinner"></div>
-    </div> -->
+
     <div id="magnify">
         <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
-        <div id="img_here"></div>
+        <div id="img_here"> </div>
     </div>
 
     <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
@@ -53,11 +51,13 @@
     </div>
     <div id="products">
         <h1>Products</h1>
-        <h3> Take a glance at our delicious <h3>
-        <div id="photos">
+        <h3> Take a glance at our delicious sweets, namkeen, snacks, cakes<h3>
+        <div class ="photos">
 
 <img onclick="magnify($(this).attr('src'))" src="https://i.pinimg.com/474x/63/67/e5/6367e550083c3cd96fc60d553c3c4f5e.jpg" title="sweets"  >
-
+<div class="content">
+    <div class="text">Trasasee</div>
+  </div>
             <img onclick="magnify($(this).attr('src'))" src="https://i.pinimg.com/236x/07/53/2b/07532b3552d4257ca96712176c3d3491.jpg "title="farsaan">
             <img onclick="magnify($(this).attr('src'))" src="https://i.pinimg.com/236x/79/65/dd/7965dd80cd63b87a47b8e6bde1b192fe.jpg"title="snacks">
             <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1525640932057-b18561aca9b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"title="cakes and pastries">
@@ -78,7 +78,7 @@
                                     <td><i class="fas fa-phone"></i> &nbsp; +234 232 434</td>
                                 </tr>
                                 <tr>
-                                    <td><i class="fas fa-at"></i> &nbsp; IndianBakery@email.com</td>
+                                    <td><i class="fas fa-at"></i> &nbsp; IndianBakery@gmail.com</td>
                                 </tr>
                                  <tr>
                                     <td><i class="fas fa-fax"></i> &nbsp; +91 9988888889</td>
@@ -113,13 +113,14 @@
                             <button class="btn_one">send</button>
                         </form>
                     </td>
+
                 </tr>
             </table>
     </div>
 
 
     <div id="footer">
-        made with 💓 in India BY rutuja dhanawade. 
+        made with 💓 in India BY rutuja dhanawade.
     </div>
     <script src="index.js" type="text/javascript"></script>
 </body>
